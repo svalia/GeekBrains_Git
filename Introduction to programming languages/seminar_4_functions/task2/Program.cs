@@ -22,7 +22,7 @@ class Program
 		{
 			Console.Write(number + " ");
 		}
-		Console.WriteLine(); // Для переноса строки
+		Console.WriteLine();
 
 		// Подсчитываем количество четных чисел в массиве
 		int evenCount = 0;
