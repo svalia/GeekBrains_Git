@@ -26,7 +26,7 @@ void PrintArray(int[] arrayForPrint)
 {
 	for (int i = 0; i < arrayForPrint.Length; i++)
 	{
-		System.Console.Write(arrayForPrint[i] + " ");
+		System.Console.Write(arrayForPrint[i] + "\t"); // "\t" - знак табуляции
 	}
 }
 
@@ -34,7 +34,7 @@ void ChangeArray(int[] myArray)
 {
 	for (int i = 0; i < myArray.Length; i++)
 	{
-		myArray[i] = -myArray[i];
+		myArray[i] = -myArray[i]; //можно использвовать myArray[i] *= -1, что экивалентно myArray[i] = myArray[i] * -1
 	}
 }
 Main();
