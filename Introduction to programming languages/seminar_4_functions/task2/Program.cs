@@ -17,7 +17,7 @@ class Program
 		}
 
 		// Выводим массив для наглядности
-		Console.WriteLine("Массив случайных трехзначных чисел:");
+		Console.WriteLine("Массив случайных трехзначных чисел: ");
 		foreach (int number in array)
 		{
 			Console.Write(number + " ");
